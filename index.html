@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Barraza — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- Nav -->
+    <nav id="nav">
+        <a href="#" class="nav-logo">JB.dev</a>
+        <ul class="nav-links">
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#stack">Stack</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-grid"></div>
+        <div class="hero-number">10+</div>
+
+        <div class="hero-tag">Disponible para proyectos</div>
+
+        <h1 class="hero-name">
+            Juan
+            <span>Barraza</span>
+        </h1>
+
+        <p class="hero-desc">
+            Desarrollador Full Stack & Backend Engineer.<br>
+            Go · Node.js · Python · Java · React · TypeScript · Ionic · Docker.<br>
+            Construyo sistemas que escalan.
+        </p>
+        <div class="hero-scroll">Scroll</div>
+    </section>
+
+    <!-- Stack bar -->
+    <div class="stack-bar">
+        <div class="stack-track">
+            <span class="stack-item"><span class="stack-dot"></span>Go</span>
+            <span class="stack-item"><span class="stack-dot"></span>React 19</span>
+            <span class="stack-item"><span class="stack-dot"></span>TypeScript</span>
+            <span class="stack-item"><span class="stack-dot"></span>PostgreSQL</span>
+            <span class="stack-item"><span class="stack-dot"></span>Docker</span>
+            <span class="stack-item"><span class="stack-dot"></span>REST APIs</span>
+            <span class="stack-item"><span class="stack-dot"></span>Tailwind CSS</span>
+            <span class="stack-item"><span class="stack-dot"></span>Cloud Deploy</span>
+            <span class="stack-item"><span class="stack-dot"></span>Ionic Dev</span>
+            <!-- duplicate for loop -->
+            <span class="stack-item"><span class="stack-dot"></span>Go</span>
+            <span class="stack-item"><span class="stack-dot"></span>React 19</span>
+            <span class="stack-item"><span class="stack-dot"></span>TypeScript</span>
+            <span class="stack-item"><span class="stack-dot"></span>PostgreSQL</span>
+            <span class="stack-item"><span class="stack-dot"></span>Docker</span>
+            <span class="stack-item"><span class="stack-dot"></span>REST APIs</span>
+            <span class="stack-item"><span class="stack-dot"></span>Tailwind CSS</span>
+            <span class="stack-item"><span class="stack-dot"></span>Cloud Deploy</span>
+            <span class="stack-item"><span class="stack-dot"></span>Ionic Dev</span>
+        </div>
+    </div>
+
+    <!-- About -->
+    <section id="about">
+        <div class="section-label">01 — Sobre mí</div>
+        <div class="about-grid">
+            <div>
+                <h2 class="about-headline fade-up">
+                    Backend primero,<br>
+                    <em>Full Stack</em><br>
+                    cuando importa.
+                </h2>
+                <div class="stats-row fade-up">
+                    <div>
+                        <div class="stat-num">10+</div>
+                        <div class="stat-label">Proyectos</div>
+                    </div>
+                    <div>
+                        <div class="stat-num">4</div>
+                        <div class="stat-label">Full Stack</div>
+                    </div>
+                    <div>
+                        <div class="stat-num">1</div>
+                        <div class="stat-label">Mobile</div>
+                    </div>
+                </div>
+            </div>
+            <div class="fade-up">
+                <p class="about-body">
+                    Desarrollador con enfoque en arquitecturas backend robustas y APIs bien diseñadas. Trabajo
+                    principalmente con Go y PostgreSQL en el backend, Next.js (React) y TypeScript en el frontend.
+                </p>
+                <p class="about-body">
+                    He construido sistemas de gestión, APIs REST con autenticación JWT, aplicaciones mobile, y deploys
+                    en la nube. Me interesa la trazabilidad de los datos, el diseño de esquemas de base de datos y la
+                    separación de responsabilidades en el código.
+                </p>
+                <p class="about-body">
+                    Cuando el proyecto lo requiere, conecto el backend con interfaces modernas — siempre buscando que el
+                    sistema sea mantenible a largo plazo.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stack -->
+    <section id="stack" style="padding-top: 0;">
+        <div class="section-label">02 — Stack técnico</div>
+        <div class="skills-grid">
+            <div class="skill-cell fade-up">
+                <div class="skill-cat">Backend</div>
+                <div class="skill-name">Go, Node.js, Python, Java</div>
+                <p
+                    style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--muted); line-height: 1.7; margin-top: 0.5rem;">
+                    Arquitectura por capas, hexagonal, DDD, APIs REST, JWT, SQL puro, ORM.
+                </p>
+                <div class="skill-tags">
+                    <span class="skill-tag">Go 1.26</span>
+                    <span class="skill-tag">Fiber</span>
+                    <span class="skill-tag">Gin</span>
+                    <span class="skill-tag">JWT</span>
+                </div>
+            </div>
+            <div class="skill-cell fade-up">
+                <div class="skill-cat">Frontend</div>
+                <div class="skill-name">React, Angular + TypeScript</div>
+                <p
+                    style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--muted); line-height: 1.7; margin-top: 0.5rem;">
+                    SPAs modernas, state management, formularios complejos.
+                </p>
+                <div class="skill-tags">
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Angular</span>
+                    <span class="skill-tag">TypeScript</span>
+                    <span class="skill-tag">Vite</span>
+                    <span class="skill-tag">TanStack Query</span>
+                    <span class="skill-tag">Zustand</span>
+                    <span class="skill-tag">Tailwind</span>
+                </div>
+            </div>
+            <div class="skill-cell fade-up">
+                <div class="skill-cat">Base de datos</div>
+                <div class="skill-name">PostgreSQL</div>
+                <p
+                    style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--muted); line-height: 1.7; margin-top: 0.5rem;">
+                    Diseño de esquemas, enums nativos, índices, triggers.
+                </p>
+                <div class="skill-tags">
+                    <span class="skill-tag">PostgreSQL</span>
+                    <span class="skill-tag">Migraciones</span>
+                    <span class="skill-tag">SQL puro</span>
+                </div>
+            </div>
+            <div class="skill-cell fade-up">
+                <div class="skill-cat">Infraestructura</div>
+                <div class="skill-name">Docker + Cloud</div>
+                <p
+                    style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--muted); line-height: 1.7; margin-top: 0.5rem;">
+                    Contenedorización, CI/CD, deploys en la nube.
+                </p>
+                <div class="skill-tags">
+                    <span class="skill-tag">Docker</span>
+                    <span class="skill-tag">Docker Compose</span>
+                    <span class="skill-tag">AWS</span>
+                    <span class="skill-tag">Render</span>
+                    <span class="skill-tag">Vercel</span>
+                    <span class="skill-tag">GitHub Actions</span>
+                </div>
+            </div>
+            <div class="skill-cell fade-up">
+                <div class="skill-cat">Mobile</div>
+                <div class="skill-name">Desarrollo móvil - Ionic</div>
+                <p
+                    style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--muted); line-height: 1.7; margin-top: 0.5rem;">
+                    Aplicaciones móviles multiplataforma.
+                </p>
+                <div class="skill-tags">
+                    <span class="skill-tag">Ionic</span>
+                    <span class="skill-tag">Angular</span>
+                    <span class="skill-tag">TypeScript</span>
+                    <span class="skill-tag">Capacitor</span>
+                </div>
+            </div>
+            <div class="skill-cell fade-up">
+                <div class="skill-cat">Metodología</div>
+                <div class="skill-name">Arquitectura limpia</div>
+                <p
+                    style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--muted); line-height: 1.7; margin-top: 0.5rem;">
+                    Separación de capas, DTOs, repositorios, servicios.
+                </p>
+                <div class="skill-tags">
+                    <span class="skill-tag">Clean Architecture</span>
+                    <span class="skill-tag">Hexagonal</span>
+                    <span class="skill-tag">DDD</span>
+                    <span class="skill-tag">REST</span>
+                    <span class="skill-tag">Git Flow</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <div class="section-label">03 — Proyectos</div>
+
+        <div class="projects-filter">
+            <button class="filter-btn active" onclick="filterProjects('all', this)">Todos</button>
+            <button class="filter-btn" onclick="filterProjects('fullstack', this)">Full Stack</button>
+            <button class="filter-btn" onclick="filterProjects('backend', this)">Backend</button>
+            <button class="filter-btn" onclick="filterProjects('mobile', this)">Mobile</button>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+
+            <div class="project-card featured" data-category="fullstack">
+                <div>
+                    <div class="project-meta">
+                        <span class="project-type">Full Stack · Destacado</span>
+                        <span class="project-year">2026</span>
+                    </div>
+                    <div class="project-num">01</div>
+                    <h3 class="project-title">Tecnology Inventory Juanfe</h3>
+                </div>
+                <div>
+                    <p class="project-desc">
+                        Sistema de gestión de inventario tecnológico para una organización con activos distribuidos en 4
+                        ciudades. Migración de 363 activos desde Excel, módulo de inventario mensual con auditoría,
+                        historial de estados inmutable, asignaciones y dashboard con estadísticas en tiempo real.
+                    </p>
+                    <div class="project-stack">
+                        <span class="stack-tag">Go 1.26</span>
+                        <span class="stack-tag">Fiber v3</span>
+                        <span class="stack-tag">React 19</span>
+                        <span class="stack-tag">TypeScript</span>
+                        <span class="stack-tag">PostgreSQL</span>
+                        <span class="stack-tag">Docker</span>
+                        <span class="stack-tag">JWT</span>
+                        <span class="stack-tag">TanStack Query</span>
+                        <span class="stack-tag">Render</span>
+                        <span class="stack-tag">Vercel</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Juan-Barraza/Tecnology_Inventory_Juanfe" target="_blank"
+                            class="project-link">
+                            <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                            </svg>
+                            GitHub
+                        </a>
+                        <a href="https://inventariojuanfe.vercel.app" target="_blank" class="project-link">
+                            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" />
+                            </svg>
+                            Demo en vivo
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="fullstack">
+                <div class="project-meta">
+                    <span class="project-type">Full Stack (Mobile)</span>
+                    <span class="project-year">2026</span>
+                </div>
+                <div class="project-num">02</div>
+                <h3 class="project-title">MoneyWIse</h3>
+                <p class="project-desc">
+                    Aplicación Móvil para la gestión de finanzas personales, que permite llevar un control de ingresos y
+                    gastos, mostrando un dashboard con estadísticas en tiempo real.
+                </p>
+                <div class="project-stack">
+                    <span class="stack-tag">Ionic</span>
+                    <span class="stack-tag">Go</span>
+                    <span class="stack-tag">Angular</span>
+                    <span class="stack-tag">TypeScript</span>
+                    <span class="stack-tag">PostgreSQL</span>
+                    <span class="stack-tag">Docker</span>
+
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/Juan-Barraza/Money-Wise" class="project-link">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                        </svg>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="fullstack">
+                <div class="project-meta">
+                    <span class="project-type">Full Stack</span>
+                    <span class="project-year">2026</span>
+                </div>
+                <div class="project-num">03</div>
+                <h3 class="project-title">Library Online</h3>
+                <p class="project-desc">
+                    Sistema de gestión de biblioteca en línea, que permite llevar un control de libros, usuarios,
+                    préstamos, devoluciones y estadísticas en tiempo real.
+                </p>
+                <div class="project-stack">
+                    <span class="stack-tag">Angular</span>
+                    <span class="stack-tag">Go</span>
+                    <span class="stack-tag">TypeScript</span>
+                    <span class="stack-tag">PostgreSQL</span>
+                    <span class="stack-tag">Docker</span>
+                    <span class="stack-tag">JWT</span>
+                    <span class="stack-tag">Railway</span>
+                    <span class="stack-tag">Vercel</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/Juan-J-Barraza/library_online_frontend" class="project-link">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                        </svg>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="mobile">
+                <div class="project-meta">
+                    <span class="project-type" style="color: var(--accent2);">Full Stack</span>
+                    <span class="project-year">2025</span>
+                </div>
+                <div class="project-num">04</div>
+                <h3 class="project-title">Sistemas de gestion de reservas</h3>
+                <p class="project-desc">
+                    Livex es una app mobile para la reserva de pasadias por parte de turista, donde tambien se
+                    implementaron 2 apps webs para la administracion de los resorts y la administracion de las reservas
+                    por parte de los resorts.
+                    Mi participacion fue mas desarrollo backend y frontend web.
+                </p>
+                <div class="project-stack">
+                    <span class="stack-tag">Ionic</span>
+                    <span class="stack-tag">Angular</span>
+                    <span class="stack-tag">Nest.js</span>
+                    <span class="stack-tag">Go</span>
+                    <span class="stack-tag">Next.js</span>
+                    <span class="stack-tag">TypeScript</span>
+                    <span class="stack-tag">PostgreSQL</span>
+                    <span class="stack-tag">Docker</span>
+                    <span class="stack-tag">JWT</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://livex-landing.vercel.app" class="project-link">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                        </svg>
+                        Landing
+                    </a>
+                    <p class="project-desc">No hay enlace publico ya que es un proyecto privado.</p>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="backend">
+                <div class="project-meta">
+                    <span class="project-type" style="color: var(--accent3);">Backend</span>
+                    <span class="project-year">2024</span>
+                </div>
+                <div class="project-num">05</div>
+                <h3 class="project-title">Sistema de gestion de ingreso</h3>
+                <p class="project-desc">
+                    Sistema de gestion de ingreso bibliotecario, permite a estudiantes y docentes ingresar mediante
+                    reconocimiento facial e interactuar con voz, esto permite llevar un control de los ingresos y
+                    egresos de la biblioteca.
+                </p>
+                <div class="project-stack">
+                    <span class="stack-tag">Python</span>
+                    <span class="stack-tag">Go</span>
+                    <span class="stack-tag">Flask</span>
+                    <span class="stack-tag">PostgreSQL</span>
+                    <span class="stack-tag">Docker</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/DeijoseDevelop/ml_u_backend" class="project-link">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                        </svg>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="project-card" data-category="backend">
+                <div class="project-meta">
+                    <span class="project-type" style="color: var(--accent3);">Backend</span>
+                    <span class="project-year">2024</span>
+                </div>
+                <div class="project-num">06</div>
+                <h3 class="project-title">Sistema de evaluacion de parques industriales</h3>
+                <p class="project-desc">
+                    Sistema de evaluacion de parques industriales, permite evaluar a los administradores los parques
+                    industriales y pasarlos a eco industriales dependiendo de cierta logica de negocio establecida
+                    legalmente, en el cual contribui con el analisis y desarrollo backend de este.
+                </p>
+                <div class="project-stack">
+                    <span class="stack-tag">Python</span>
+                    <span class="stack-tag">Go</span>
+                    <span class="stack-tag">Flask</span>
+                    <span class="stack-tag">PostgreSQL</span>
+                    <span class="stack-tag">Docker</span>
+                </div>
+                <div class="project-links">
+                    <p class="project-desc">No hay enlace publico ya que es un proyecto privado.</p>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="backend">
+                <div class="project-meta">
+                    <span class="project-type" style="color: var(--accent3);">Backend</span>
+                    <span class="project-year">2023</span>
+                </div>
+                <div class="project-num">07</div>
+                <h3 class="project-title">Inmobiliaria CRM</h3>
+                <p class="project-desc">
+                    Sistema de gestión de propiedades para inmobiliarias, que permite llevar un control de propiedades,
+                    clientes, visitas, reservas, ventas y estadísticas en tiempo real.
+                    Mi parte fue el desarrollo de la API REST con Go y PostgreSQL, implemente JWT para la autenticación
+                    y autorización, Docker para el despliegue y conexion a API de whatsapp para el envio de
+                    notificaciones.
+                </p>
+                <div class="project-stack">
+                    <span class="stack-tag">Go</span>
+                    <span class="stack-tag">PostgreSQL</span>
+                    <span class="stack-tag">Docker</span>
+                </div>
+                <p class="project-desc">Este proyecto fue desarrollado para una empresa de bienes raices en Colombia.
+                    no hay enlace publico ya que es un proyecto privado.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section">
+        <div class="contact-bg">Hablemos</div>
+        <div class="section-label" style="justify-content: center; margin-bottom: 3rem;">04 — Contacto</div>
+        <h2 class="contact-headline fade-up">
+            ¿Tienes un proyecto<br>en mente?
+        </h2>
+        <p class="contact-sub fade-up">
+            Abierto a oportunidades freelance, roles full-time<br>
+            y colaboraciones interesantes.
+        </p>
+        <div class="contact-links fade-up">
+            <a href="mailto:barrazapadilla2004@gmail.com" class="btn btn-primary">
+                Contactame
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M7 17L17 7M17 7H7M17 7v10" />
+                </svg>
+            </a>
+            <a href="https://github.com/Juan-Barraza" target="_blank" class="btn btn-ghost">GitHub</a>
+            <a href="https://www.linkedin.com/in/juan-barraza-75540a301?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank" class="btn btn-ghost">LinkedIn</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 <span>Juan Barraza</span>. Todos los derechos reservados.</p>
+        <p>Diseñado y construido con <span>♥</span></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
