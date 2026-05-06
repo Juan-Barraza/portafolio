@@ -10,6 +10,8 @@
         href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
 </head>
 
 <body>
@@ -19,7 +21,14 @@
 
     <!-- Nav -->
     <nav id="nav">
-        <a href="#" class="nav-logo">JB.dev</a>
+        <a href="#" class="nav-logo">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round" style="margin-right: 0.5rem; vertical-align: middle;">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+            </svg>
+            JB.dev
+        </a>
         <ul class="nav-links">
             <li><a href="#about">Sobre mí</a></li>
             <li><a href="#stack">Stack</a></li>
@@ -38,6 +47,12 @@
         <h1 class="hero-name">
             Juan
             <span>Barraza</span>
+            <svg class="hero-spark" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="var(--accent)"
+                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                    d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-11.314l.707.707m11.314 11.314l.707.707">
+                </path>
+            </svg>
         </h1>
 
         <p class="hero-desc">
@@ -89,7 +104,7 @@
                         <div class="stat-label">Proyectos</div>
                     </div>
                     <div>
-                        <div class="stat-num">4</div>
+                        <div class="stat-num">5</div>
                         <div class="stat-label">Full Stack</div>
                     </div>
                     <div>
@@ -232,7 +247,7 @@
             <div class="project-card featured" data-category="fullstack">
                 <div>
                     <div class="project-meta">
-                        <span class="project-type">Full Stack · Destacado</span>
+                        <span class="project-type">Full Stack</span>
                         <span class="project-year">2026</span>
                     </div>
                     <div class="project-num">01</div>
@@ -265,7 +280,8 @@
                             </svg>
                             GitHub
                         </a>
-                        <a href="https://inventariojuanfe.vercel.app" target="_blank" class="project-link">
+                        <a href="https://tecnology-inventory-juanfe-frontend.vercel.app" target="_blank"
+                            class="project-link">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2">
                                 <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" />
@@ -278,10 +294,49 @@
 
             <div class="project-card" data-category="fullstack">
                 <div class="project-meta">
-                    <span class="project-type">Full Stack (Mobile)</span>
+                    <span class="project-type">Full Stack</span>
                     <span class="project-year">2026</span>
                 </div>
                 <div class="project-num">02</div>
+                <h3 class="project-title">Juanfe logis</h3>
+                <p class="project-desc">
+                    Sistema de inventario logístico que maneja productos existentes en diferentes cajas (Boxes), y estas
+                    cajas existen en bodegas. Controla el stock mediante una tabla intermedia, permitiendo gestionar
+                    ingresos, salidas y devoluciones de productos.
+                </p>
+                <div class="project-stack">
+                    <span class="stack-tag">React</span>
+                    <span class="stack-tag">Golang</span>
+                    <span class="stack-tag">PostgreSQL</span>
+                    <span class="stack-tag">Docker</span>
+                    <span class="stack-tag">Supabase</span>
+                    <span class="stack-tag">Render</span>
+                    <span class="stack-tag">Vercel</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/Juan-Barraza/JuanfeLogisFrontend" target="_blank" class="project-link">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                        </svg>
+                        GitHub
+                    </a>
+                    <a href="https://juanfelogis.vercel.app" target="_blank" class="project-link">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" />
+                        </svg>
+                        Demo en vivo
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="fullstack">
+                <div class="project-meta">
+                    <span class="project-type">Full Stack (Mobile)</span>
+                    <span class="project-year">2026</span>
+                </div>
+                <div class="project-num">03</div>
                 <h3 class="project-title">MoneyWIse</h3>
                 <p class="project-desc">
                     Aplicación Móvil para la gestión de finanzas personales, que permite llevar un control de ingresos y
@@ -312,7 +367,7 @@
                     <span class="project-type">Full Stack</span>
                     <span class="project-year">2026</span>
                 </div>
-                <div class="project-num">03</div>
+                <div class="project-num">04</div>
                 <h3 class="project-title">Library Online</h3>
                 <p class="project-desc">
                     Sistema de gestión de biblioteca en línea, que permite llevar un control de libros, usuarios,
@@ -344,7 +399,7 @@
                     <span class="project-type">Full Stack</span>
                     <span class="project-year">2025</span>
                 </div>
-                <div class="project-num">04</div>
+                <div class="project-num">05</div>
                 <h3 class="project-title">Sistemas de gestion de reservas</h3>
                 <p class="project-desc">
                     Livex es una app mobile para la reserva de pasadias por parte de turista, donde tambien se
@@ -380,7 +435,7 @@
                     <span class="project-type" style="color: var(--accent3);">Backend</span>
                     <span class="project-year">2024</span>
                 </div>
-                <div class="project-num">05</div>
+                <div class="project-num">06</div>
                 <h3 class="project-title">Sistema de gestion de ingreso</h3>
                 <p class="project-desc">
                     Sistema de gestion de ingreso bibliotecario, permite a estudiantes y docentes ingresar mediante
@@ -409,7 +464,7 @@
                     <span class="project-type" style="color: var(--accent3);">Backend</span>
                     <span class="project-year">2024</span>
                 </div>
-                <div class="project-num">06</div>
+                <div class="project-num">07</div>
                 <h3 class="project-title">Sistema de evaluacion de parques industriales</h3>
                 <p class="project-desc">
                     Sistema de evaluacion de parques industriales, permite evaluar a los administradores los parques
@@ -433,7 +488,7 @@
                     <span class="project-type" style="color: var(--accent3);">Backend</span>
                     <span class="project-year">2023</span>
                 </div>
-                <div class="project-num">07</div>
+                <div class="project-num">08</div>
                 <h3 class="project-title">Inmobiliaria CRM</h3>
                 <p class="project-desc">
                     Sistema de gestión de propiedades para inmobiliarias, que permite llevar un control de propiedades,
